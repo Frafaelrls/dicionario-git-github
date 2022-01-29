@@ -25,3 +25,8 @@ def devolve_significado(entrada):
     else:
         apagar()
         print("Palavra não encontrada")
+
+
+def sair():
+    apagar()
+    print(f"Obrigado por utilizar o programa.")
