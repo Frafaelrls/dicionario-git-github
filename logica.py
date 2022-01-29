@@ -6,7 +6,7 @@ def devolve_significado(entrada):
     if entrada in banco_dados:
         print(banco_dados[entrada])
 
-    if entrada == "?":
+    elif entrada == "?":
         lista = banco_dados.keys()
         for nomes in lista:
             print(nomes)
