@@ -5,7 +5,7 @@ Dicionário criado com o objetivo de auxiliar no treinamento de novos usuários 
 
 ### Funcionamento inicial: :exclamation:
 
-1ª. Mensagem de saudação e pedido de inserção da palavra. :speach_balloon:
+1ª. Mensagem de saudação e pedido de inserção da palavra. :speech_balloon:
 
 2ª. Apresentação do significado. :book:
 
