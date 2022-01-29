@@ -1,7 +1,8 @@
-from logica import devolve_significado, sair
+from logica import devolve_significado, sair, apagar
 
 
 def user():
+    apagar()
     while True:
         entrada = input(f"\nOlá,\nInsira a palavra desejada."
                         f"\nDigite 'Sair' para encerrar o programa."
