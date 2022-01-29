@@ -8,7 +8,7 @@ def user():
                         f"\nDigite 'Sair' para encerrar o programa."
                         f"\nDigite '?' para acessar a lista de palavras"
                         f" salvas.\n")
-        devolve_significado(entrada)
+        devolve_significado(entrada.lower())
 
 
 user()
