@@ -13,7 +13,7 @@ Dicionário criado com o objetivo de auxiliar no treinamento de novos usuários 
 3ª Apresentação do resultado 
 
 
-### Estrutura dos programas 📁:
+### Estrutura dos programas 📁
 
 - main.py - Contem a interação com o usuário
 - logica.py - Contem a lógica de operação
@@ -22,8 +22,14 @@ Dicionário criado com o objetivo de auxiliar no treinamento de novos usuários 
 
 ### Como contribuir
 
+Você pode contribuir adicionando novos termos e seus significados no arquivo 
+`dicionario.py` e realizar o `pull request`
 
-### 🛠 Tecnologias utilizadas 🛠
+
+Ou se preferir pode contribuir através de [issues](https://github.com/Frafaelrls/dicionario-git-github/issues/new) 😉
+
+
+### Tecnologias utilizadas 🛠
 
 
 🐍 Python 3
