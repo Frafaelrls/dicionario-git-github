@@ -1,6 +1,6 @@
 # **Dicionário** 📕
 
-Dicionário criado com o objetivo de auxiliar no treinamento de novos usuários dos aplicativos Git e GitHub.
+Dicionário criado com o objetivo de auxiliar no treinamento de novos usuários dos aplicativos Git e GitHub. Ao digitar um comando do git, será apresentado seu respectivo significado, como mostra o gif abaixo
 
 ![Gif demonstra o funcionamento do projeto](https://user-images.githubusercontent.com/98472557/151679520-884c7fa9-b8d7-4313-b254-7358d979e832.gif)
 
@@ -23,7 +23,7 @@ Dicionário criado com o objetivo de auxiliar no treinamento de novos usuários 
 ### Como contribuir
 
 
-###🛠 Tecnologias utilizadas 🛠
+### 🛠 Tecnologias utilizadas 🛠
 
 
 🐍 Python 3
@@ -38,4 +38,4 @@ Dicionário criado com o objetivo de auxiliar no treinamento de novos usuários 
 Feito com amor 💝 e carinho 😊 por: Felippe Rafael
 
 [![Linkedin Badge](https://img.shields.io/badge/-Felippe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felippe-rafael/)]( https://www.linkedin.com/in/felippe-rafael/)
-[![gmail Badge](https://img.shields.io/badge/-frafaelrls@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:frafaelrls@gmail.com)](frafealrls@gmail.com)
+[![gmail Badge](https://img.shields.io/badge/-frafaelrls@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:frafaelrls@gmail.com)](mailto:frafealrls@gmail.com)
