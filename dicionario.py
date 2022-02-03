@@ -27,8 +27,6 @@ def dic():
                              'git add -p \npermite dividir em partes '
                              'modificações realizadas em um arquivo, criando '
                              'dois ou mais commits.',
-                  'snapshot': '\nsnapshot\nPrint do estado do arquivo naquele'
-                              ' momento.',
                   'git pull': '\ngit pull\nEnvio dos commits do repositório '
                               'remoto para o repositório local.',
                   'git reset': '\ngit reset [arquivo]\nDesselecionar o arquivo'
@@ -75,6 +73,8 @@ def dic():
                                'histórico do branch específico com o branch'
                                ' atual.\n\ngit marge --continue\nContinua o '
                                'merge após a resolução de conflitos de'
-                               ' commits.'}
+                               ' commits.',
+                  'snapshot': '\nsnapshot\nPrint do estado do arquivo naquele'
+                              ' momento.'}
 
     return dicionario
