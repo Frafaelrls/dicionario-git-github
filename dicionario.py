@@ -61,13 +61,16 @@ def dic():
                                 'específico, não pode deletar um branch ativo.'
                                 '\n\ngit branch -d [nome do branch]\n'
                                 'Força a exclusão do branch.',
-                  'git init': 'Cria um novo repositório local com um nome '
-                              'específico. $ git init [nome-do-projeto]',
-                  'git clone': 'Baixa um projeto e seu histórico de versão '
-                               'inteiro. $ git clone [url]',
-                  'git checkout': 'Muda para o branch específico e atualiza o '
-                                  'diretório de trabalho. $ git checkout '
-                                  '[nome-do-branch]',
+                  'git init': '\ngit init [nome do projeto]\nCria um novo'
+                              ' repositório local com um nome específico.',
+                  'git clone': '\ngit clone [url]\nBaixa um projeto e seu '
+                               'histórico de versão.',
+                  'git checkout': '\ngit checkout -b [nome do branch] '
+                                  '\nCria um novo branch.\n\n'
+                                  'git checkout [nome do branch]\nMuda para o '
+                                  'branch específico e atualiza o diretório de'
+                                  ' trabalho.\n\ngit checkout -\nRetorna para '
+                                  'o ultimo branch acessado.',
                   'git merge': 'Combina o histórico do branch específico com o'
                                ' branch atual. $ git merge [branch]'}
 
