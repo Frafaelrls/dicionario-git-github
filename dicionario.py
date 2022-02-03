@@ -20,8 +20,13 @@ def dic():
                               'não foram realizadas.\n\ngit diff --staged\n'
                               'Mostra a diferença entre arquivos selecionados'
                               ' e a suas últimas versões.',
-                  'git add': 'Faz o snapshot de um arquivo na preparação '
-                             'para versionamento. $ git add [arquivo]',
+                  'git add': '\ngit add .\nAdiciona todos os arquivos '
+                             'modificados para serem commitados.\n\n'
+                             'git add [nome do arquivo] \nAdiciona o arquivo '
+                             'listado para ser commitado.\n\n'
+                             'git add -p \npermite dividir em partes '
+                             'modificações realizadas em um arquivo, criando '
+                             'dois ou mais commits.\n',
                   'snapshot': 'Print do estado do arquivo naquele momento.',
                   'git pull': 'Envio dos commits do repositório remoto '
                               'para o repositório local.',
