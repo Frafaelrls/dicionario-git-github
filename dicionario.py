@@ -1,6 +1,19 @@
 def dic():
-    dicionario = {'git push': 'Envia as alterações locais para repositório.'
-                              ' remoto.',
+    dicionario = {'git push': '\ngit push origin [nome do branch] \n'
+                              'Envia o commit para o repositório online.\n\n'
+                              'git push origin [nome do branch] -- force \n'
+                              'Usar após ter sido usado o git reset, para '
+                              'forçar o commit.\n\n'
+                              'git push origin [nome do branch] -- rebase \n'
+                              'Envia o commit e coloca ele no topo, evitando'
+                              ' conflitos com outros commits.\n\n'
+                              'git push origin [nome do branch] '
+                              '--delete [nome do branch]  \n'
+                              'Deleta no repositório remoto o branch '
+                              'especificado.\n\n'
+                              'git push origin master :[nome do branch] \n'
+                              'Deleta no repositório remoto o branch'
+                              ' especificado.',
                   'git status': 'Lista todos os arquivos novos ou modificados'
                                 ' para serem commitados.',
                   'git diff': 'Mostra diferenças no arquivo que não foram '
@@ -12,7 +25,7 @@ def dic():
                   'snapshot': 'Print do estado do arquivo naquele momento.',
                   'git pull': 'Envio dos commits do repositório remoto '
                               'para o repositório local.',
-                  'git reset': 'Deseleciona o arquivo, mas preserva seu '
+                  'git reset': 'Desselecionar o arquivo, mas preserva seu '
                                'conteúdo. $ git reset [arquivo]',
                   'git commit': 'Grava o snapshot permanentemente do arquivo '
                                 'no histórico de versão. '
