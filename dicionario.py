@@ -53,11 +53,14 @@ def dic():
                                 'Ativa a função de corretor de digitação de '
                                 'comandos do git Ex: "git stratus" será '
                                 'interpretado como "git status".',
-                  'git branch': 'Lista todos os branches locais no repositório'
-                                ' atual.\n$ git branch [nome-do-branch]\nCria '
-                                'um novo branch\n$ git branch -d '
-                                '[nome-do-branch]\nExclui o branch '
-                                'específico.',
+                  'git branch': '\ngit branch \nLista todos os branches locais'
+                                ' no repositório atual.\n\n'
+                                'git branch [nome do branch]\n'
+                                'Cria um novo branch\n\ngit branch -b '
+                                '[nome do branch]\nExclui o branch '
+                                'específico, não pode deletar um branch ativo.'
+                                '\n\ngit branch -d [nome do branch]\n'
+                                'Força a exclusão do branch.',
                   'git init': 'Cria um novo repositório local com um nome '
                               'específico. $ git init [nome-do-projeto]',
                   'git clone': 'Baixa um projeto e seu histórico de versão '
