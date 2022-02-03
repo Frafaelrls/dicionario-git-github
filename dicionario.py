@@ -26,15 +26,22 @@ def dic():
                              'listado para ser commitado.\n\n'
                              'git add -p \npermite dividir em partes '
                              'modificações realizadas em um arquivo, criando '
-                             'dois ou mais commits.\n',
-                  'snapshot': 'Print do estado do arquivo naquele momento.',
-                  'git pull': 'Envio dos commits do repositório remoto '
-                              'para o repositório local.',
-                  'git reset': 'Desselecionar o arquivo, mas preserva seu '
-                               'conteúdo. $ git reset [arquivo]',
-                  'git commit': 'Grava o snapshot permanentemente do arquivo '
-                                'no histórico de versão. '
-                                '$ git commit -m "[mensagem descritiva]"',
+                             'dois ou mais commits.',
+                  'snapshot': '\nsnapshot\nPrint do estado do arquivo naquele'
+                              ' momento.',
+                  'git pull': '\ngit pull\nEnvio dos commits do repositório '
+                              'remoto para o repositório local.',
+                  'git reset': '\ngit reset [arquivo]\nDesselecionar o arquivo'
+                               'mas preserva seu conteúdo.',
+                  'git commit': '\ngit commit -m "mensagem" \nComando para '
+                                'fazer o commit, usar uma mensagem breve no '
+                                'imperativo.\n\ngit commit --amend '
+                                '\nUsado para editar um commit, para comites '
+                                'do master usar antes de enviar para o '
+                                'repositório remoto para evitar o surgimento '
+                                'de conflito de histórico.\n\n'
+                                'git commit --fixup [hash] \n'
+                                'Aplica correção de um commit.',
                   'git config': '$ git config --global user.name "[nome]"'
                                 '\nConfigura o nome que você quer ligado as '
                                 'suas transações de commit.'
