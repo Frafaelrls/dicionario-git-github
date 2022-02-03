@@ -14,12 +14,12 @@ def dic():
                               'git push origin master :[nome do branch] \n'
                               'Deleta no repositório remoto o branch'
                               ' especificado.',
-                  'git status': 'Lista todos os arquivos novos ou modificados'
-                                ' para serem commitados.',
-                  'git diff': 'Mostra diferenças no arquivo que não foram '
-                              'realizadas.\n$ git diff --staged\n'
+                  'git status': '\nLista todos os arquivos novos ou '
+                                'modificados para serem commitados.',
+                  'git diff': '\ngit diff\nMostra diferenças no arquivo que '
+                              'não foram realizadas.\n\ngit diff --staged\n'
                               'Mostra a diferença entre arquivos selecionados'
-                              ' e a suas últimas versões',
+                              ' e a suas últimas versões.',
                   'git add': 'Faz o snapshot de um arquivo na preparação '
                              'para versionamento. $ git add [arquivo]',
                   'snapshot': 'Print do estado do arquivo naquele momento.',
