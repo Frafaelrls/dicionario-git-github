@@ -36,7 +36,7 @@ def dic():
                   'git commit': '\ngit commit -m "mensagem" \nComando para '
                                 'fazer o commit, usar uma mensagem breve no '
                                 'imperativo.\n\ngit commit --amend '
-                                '\nUsado para editar um commit, para comites '
+                                '\nUsado para editar um commit, para commites '
                                 'do master usar antes de enviar para o '
                                 'repositório remoto para evitar o surgimento '
                                 'de conflito de histórico.\n\n'
@@ -71,7 +71,10 @@ def dic():
                                   'branch específico e atualiza o diretório de'
                                   ' trabalho.\n\ngit checkout -\nRetorna para '
                                   'o ultimo branch acessado.',
-                  'git merge': 'Combina o histórico do branch específico com o'
-                               ' branch atual. $ git merge [branch]'}
+                  'git merge': '\ngit marge [nome do branch]\nCombina o '
+                               'histórico do branch específico com o branch'
+                               ' atual.\n\ngit marge --continue\nContinua o '
+                               'merge após a resolução de conflitos de'
+                               ' commits.'}
 
     return dicionario
