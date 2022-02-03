@@ -42,13 +42,17 @@ def dic():
                                 'de conflito de histórico.\n\n'
                                 'git commit --fixup [hash] \n'
                                 'Aplica correção de um commit.',
-                  'git config': '$ git config --global user.name "[nome]"'
+                  'git config': '\ngit config --global user.name "[nome]"'
                                 '\nConfigura o nome que você quer ligado as '
-                                'suas transações de commit.'
-                                '\n$ git config --global user.email '
-                                '"[endereco-de-email]"'
-                                '\nConfigura o email que você quer ligado as '
-                                'suas transações de commit.',
+                                'suas transações de commit.\n\n'
+                                'git config --global user.email '
+                                '"[endereço-de-email]"\n'
+                                'Configura o email que você quer ligado as '
+                                'suas transações de commit.\n\n'
+                                'git config --global help.autocorrect 1\n'
+                                'Ativa a função de corretor de digitação de '
+                                'comandos do git Ex: "git stratus" será '
+                                'interpretado como "git status".',
                   'git branch': 'Lista todos os branches locais no repositório'
                                 ' atual.\n$ git branch [nome-do-branch]\nCria '
                                 'um novo branch\n$ git branch -d '
