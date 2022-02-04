@@ -19,7 +19,7 @@ def devolve_significado(entrada):
 
     elif entrada == "?":
         apagar()
-        lista = banco_dados.keys()
+        lista = sorted(banco_dados.keys())
         for nomes in lista:
             print(nomes)
     else:
