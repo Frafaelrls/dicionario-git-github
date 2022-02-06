@@ -75,6 +75,10 @@ def dic():
                                'merge após a resolução de conflitos de'
                                ' commits.',
                   'snapshot': '\nsnapshot\nPrint do estado do arquivo naquele'
-                              ' momento.'}
+                              ' momento.',
+                  'git revert': '\ngit revert [hash]\nComando para reverter '
+                                'um commit sem alterar o histórico é '
+                                'recomendado usar sempre que precisar reverter'
+                                ' algo no branch master.'}
 
     return dicionario
