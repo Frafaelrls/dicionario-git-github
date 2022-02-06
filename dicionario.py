@@ -29,8 +29,20 @@ def dic():
                              'dois ou mais commits.',
                   'git pull': '\ngit pull\nEnvio dos commits do repositório '
                               'remoto para o repositório local.',
-                  'git reset': '\ngit reset [arquivo]\nDesselecionar o arquivo'
-                               'mas preserva seu conteúdo.',
+                  'git reset': '\ngit reset [arquivo]\nRetira da seleção do '
+                               'arquivo preservando o seu conteúdo.\n\n'
+                               'git reset --hard [hash] \nRetorna para o '
+                               'commit escolhido apagando todas as '
+                               'modificações feitas após ele.\nNão é '
+                               'recomendado usar no branch principal, com a '
+                               'exclusão do histórico de commits poderá gerar '
+                               'conflitos.\n\n'
+                               'git reset --soft [hash] \nRetorna para o '
+                               'commit escolhido mantendo salvos aparte as '
+                               'modificações feitas após o commit escolhido. '
+                               '\nNão é recomendado usar no branch principal, '
+                               'com a exclusão do histórico de commits poderá '
+                               'gerar conflitos.',
                   'git commit': '\ngit commit -m "mensagem" \nComando para '
                                 'fazer o commit, usar uma mensagem breve no '
                                 'imperativo.\n\ngit commit --amend '
