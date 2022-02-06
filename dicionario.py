@@ -124,6 +124,11 @@ def dic():
                                 ' a resolução de conflitos de commits.',
                   'git archive': '\ngit archive [nome do branch] --format=zip'
                                  ' --output[nome do arquivo]\nCria um ficheiro'
-                                 ' compactado com todo o repositório.'}
+                                 ' compactado com todo o repositório.',
+                  'git shortlog': '\ngit shortlog\nApresenta um log curto com'
+                                  ' a quantidade total de commits por autor e'
+                                  ' seus títulos.\n\ngit shortlog -sn\n'
+                                  'Apresenta apenas a quantidade total de '
+                                  'commits por autor.'}
 
     return dicionario
