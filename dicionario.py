@@ -112,6 +112,9 @@ def dic():
                              ".\n\ngit log --author='[nome]' \nFiltra os"
                              ' commits por nome do autor.',
                   'git show': '\ngit show [hash]\nExibe o que foi modificado '
-                              'em um commit buscando pela hash.'}
+                              'em um commit buscando pela hash.',
+                  'git cherry-pick': '\ngit cherry-pick [hash]\nAtualiza um'
+                                     ' commit especifico de uma branch em '
+                                     'outra usando a hash como referência.'}
 
     return dicionario
