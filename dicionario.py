@@ -129,6 +129,11 @@ def dic():
                                   ' a quantidade total de commits por autor e'
                                   ' seus títulos.\n\ngit shortlog -sn\n'
                                   'Apresenta apenas a quantidade total de '
-                                  'commits por autor.'}
+                                  'commits por autor.',
+                  'git reflog': '\ngit reflog\nApresenta todas as referências'
+                                ' de trabalhos feitos no git, apresentando os'
+                                ' log mesmo após o uso de "git reset --hard",'
+                                ' o que possibilita a recuperação de mudanças'
+                                ' após o reset.'}
 
     return dicionario
