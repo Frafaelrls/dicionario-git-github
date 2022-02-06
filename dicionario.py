@@ -115,6 +115,12 @@ def dic():
                               'em um commit buscando pela hash.',
                   'git cherry-pick': '\ngit cherry-pick [hash]\nAtualiza um'
                                      ' commit especifico de uma branch em '
-                                     'outra usando a hash como referência.'}
+                                     'outra usando a hash como referência.',
+                  'git rebase': '\ngit rebase -i head~2 \nModo interativo para'
+                                ' trabalhar com os dois últimos commits.\n\n'
+                                'git rebase -i --autosquash\nUne os commits '
+                                'criados usando o "--fixup".\n\n'
+                                'git rebase --continue\nContinua o rebase após'
+                                ' a resolução de conflitos de commits.'}
 
     return dicionario
