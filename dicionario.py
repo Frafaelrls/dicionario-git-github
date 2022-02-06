@@ -34,7 +34,7 @@ def dic():
                   'git commit': '\ngit commit -m "mensagem" \nComando para '
                                 'fazer o commit, usar uma mensagem breve no '
                                 'imperativo.\n\ngit commit --amend '
-                                '\nUsado para editar um commit, para commites '
+                                '\nUsado para editar um commit, para commits '
                                 'do master usar antes de enviar para o '
                                 'repositório remoto para evitar o surgimento '
                                 'de conflito de histórico.\n\n'
@@ -79,6 +79,25 @@ def dic():
                   'git revert': '\ngit revert [hash]\nComando para reverter '
                                 'um commit sem alterar o histórico é '
                                 'recomendado usar sempre que precisar reverter'
-                                ' algo no branch master.'}
+                                '.algo no branch master.',
+                  'git log': '\ngit log\nVerifica os commits existentes e '
+                             'pode-se pegar as rash.\n\ngit log -[numero]'
+                             '\nApresenta uma quantidade específica de commits'
+                             '.\n\ngit log --pretty=oneline\nApresenta o log '
+                             'em uma linha única.\n\n'
+                             'git log --pretty=oneline --graph\nApresenta em '
+                             'gráfico os commits do branch atual.\n\n'
+                             'git log --pretty=oneline --graph --all'
+                             '\nApresenta em gráfico os commits de todos os'
+                             " branch.\n\ngit log --since='[data]'\nApresenta "
+                             'todos os commits a partir da data escolhida.\n\n'
+                             "git log --until='[data]' \nApresenta os commits"
+                             ' até essa data.\n\n'
+                             "git log --since='[data1]' --until='[data2]'" 
+                             '\nApresenta os commits no intervalo de datas '
+                             'escolhidas, sendo excludente, busca entre as '
+                             'datas mas não inclui commits nos dias escolhidos'
+                             ".\n\ngit log --author='[nome]' \nFiltra os"
+                             ' commits por nome do autor.'}
 
     return dicionario
