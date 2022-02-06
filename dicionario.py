@@ -134,6 +134,9 @@ def dic():
                                 ' de trabalhos feitos no git, apresentando os'
                                 ' log mesmo após o uso de "git reset --hard",'
                                 ' o que possibilita a recuperação de mudanças'
-                                ' após o reset.'}
+                                ' após o reset.',
+                  'hash': '\nhash \nCódigo único de identificação dos commits'
+                          ' é composto por números e letras.\n'
+                          'Exemplo: 6d1fb45d01c596a7f6165ec834bb26b67650ffd6'}
 
     return dicionario
