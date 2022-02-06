@@ -110,6 +110,8 @@ def dic():
                              'escolhidas, sendo excludente, busca entre as '
                              'datas mas não inclui commits nos dias escolhidos'
                              ".\n\ngit log --author='[nome]' \nFiltra os"
-                             ' commits por nome do autor.'}
+                             ' commits por nome do autor.',
+                  'git show': '\ngit show [hash]\nExibe o que foi modificado '
+                              'em um commit buscando pela hash.'}
 
     return dicionario
