@@ -121,6 +121,9 @@ def dic():
                                 'git rebase -i --autosquash\nUne os commits '
                                 'criados usando o "--fixup".\n\n'
                                 'git rebase --continue\nContinua o rebase após'
-                                ' a resolução de conflitos de commits.'}
+                                ' a resolução de conflitos de commits.',
+                  'git archive': '\ngit archive [nome do branch] --format=zip'
+                                 ' --output[nome do arquivo]\nCria um ficheiro'
+                                 ' compactado com todo o repositório.'}
 
     return dicionario
