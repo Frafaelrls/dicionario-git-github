@@ -30,3 +30,4 @@ def devolve_significado(entrada):
 def sair():
     apagar()
     print(f"Obrigado por utilizar o programa.")
+    os.system("pause")
